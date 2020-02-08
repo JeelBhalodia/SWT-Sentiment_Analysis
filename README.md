@@ -12,7 +12,7 @@ Here, I have used Tweepy module to stream live tweets directly from Twitter in r
 #### 1. UML Diagrams (Atleast 3)
 
 Here, I have attached 
-+ [Class Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/Class_Diagram.PNG)
++ [Class Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/class_diagram.PNG)
 + [Activity Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/Activity%20Diagram.png)
 + [Use-case Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/Usecase_diagram.png)
 
