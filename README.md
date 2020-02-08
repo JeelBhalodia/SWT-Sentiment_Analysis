@@ -1,14 +1,13 @@
 # SWT-Twitter_Sentiment_Analysis
 Advanced Software Engineering Exercises
-************
 
-##TASK - 1
-__________________
+## TASK - 1__________________
 For the pet project, I have used Python language and the code is relatively small. However, if time permits I would also like to do the same thing using NLP.
+
 Here, I have used Tweepy module to stream live tweets directly from Twitter in real-time. The tweets are visualized and then the TextBlob module is used to do sentiment analysis on the tweets. Based on certain keywords, tweets are refined and then are given a sentiment score of -1(negative sentiment), 0(neutral), 1(positive).
 
-*****************
-##TASK - 2
+
+## TASK - 2
 _______________________
 Codacy Code quality badge 
 
