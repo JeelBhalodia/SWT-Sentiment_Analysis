@@ -9,16 +9,16 @@ Here, I have used Tweepy module to stream live tweets directly from Twitter in r
 
 ## TASK - 2
 
-#### 1. UML Diagrams (Atleast 3)
+### 1. UML Diagrams (Atleast 3)
 
 Here, I have attached 
 + [Class Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/class_diagram.PNG)
 + [Activity Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/Activity%20Diagram.png)
 + [Use-case Diagram](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/UML/Usecase_diagram.png)
 
-I have used lucidchart for the this task.
+I have used lucidchart and GitUML (class diagram) for the this task.
 
-#### 2. Metrics
+### 2. Metrics
 
 I have used both Sonarcube and Codacy for the task.
 
@@ -29,4 +29,16 @@ Sonarcloud Code Qulity Badge
 Codacy Code quality badge 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d028e61c35449acad16a139efa656a3)](https://www.codacy.com/manual/JeelBhalodia/SWT-Sentiment_Analysis?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JeelBhalodia/SWT-Sentiment_Analysis&amp;utm_campaign=Badge_Grade)
 
-#### 3. Clean Code Development
+### 3. Clean Code Development
+
+### 4. Build Management
+
+### 5. Unit tests
+
+### 6. Continuous Integration/Continuous Delivery
+
+### 7. IDE
+
+### 8. DSL
+
+### 9. Functional Programming
