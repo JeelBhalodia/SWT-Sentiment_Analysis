@@ -27,9 +27,9 @@ import tweepy.binder
 from tweepy.streaming import StreamListener
 import unittest
 
-from src import sentiment as TweetAnalyzer
-from src import sentiment as TwitterAuthenticator
-from src import sentiment as TwitterClient
+from sentiment import TweetAnalyzer
+from sentiment import TwitterAuthenticator
+from sentiment import TwitterClient
 
 class SentimentTest(unittest.TestCase):
 
