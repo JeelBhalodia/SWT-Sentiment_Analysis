@@ -46,12 +46,13 @@ Here is the [build file](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/
 
 I have used PyCharm Community Edition as my IDE.
 Some of my favourite shortcuts are 
-+ shift+ctrl+/    Comment code with block comments or
-+ ctrl+/          Comment current line or selected block with line comments
-+ shift+TAB       Unindent Selection
-+ ctrl+E          Shows the list of recently viewed files
-+ alt+RIGHT         Activates the next tab
-and it's Darcula color scheme
++ shift+ctrl+/  to  comment code with block comments or
++ ctrl+/  to  comment current line or selected block with line comments
++ shift+TAB  to  unindent selection
++ ctrl+E  to  show the list of recently viewed files
++ alt+RIGHT  to  activate the next tab
+
+And ofc it's 'Darcula' color scheme
 
 The only drawback (not so serious) which I faced was that it doesn't generate class diagrams unlike Professional Edition.
 Also there's a [cheat sheet](https://www.shortcutfoo.com/app/dojos/pycharm-win/cheatsheet) which can be handy.
@@ -66,6 +67,7 @@ I have written a simple dsl which doesn't contribute to my project, but it's gen
 [DSL-Part 1](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/DSL/dsl1.py)
 
 Importing a Python module dynamically at runtime using the importlib module from the standard library.
+
 [DSL-Part 2](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/DSL/dsl2.py)
 
 Bit more general and flexible. Instead of hardcoding the arguments, users pass any number of arguments. 
