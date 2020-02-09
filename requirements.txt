@@ -5,4 +5,3 @@ tweepy
 textblob
 mock
 patch
-unittest
