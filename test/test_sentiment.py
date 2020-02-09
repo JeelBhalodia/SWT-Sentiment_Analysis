@@ -27,7 +27,7 @@ import tweepy.binder
 from tweepy.streaming import StreamListener
 import unittest
 
-from SWT_Sentiment_Analysis import sentiment
+from src import sentiment
 
 
 class SentimentTest(unittest.TestCase):
