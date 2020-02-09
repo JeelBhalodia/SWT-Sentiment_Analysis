@@ -33,6 +33,11 @@ Codacy Code quality badge
 
 ### 4. Build Management
 
+I have used Github Actions for the Build Management.
+Here is the [build file](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/.github/workflows/pythonapp.yml)
+
+![Python application](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/workflows/Python%20application/badge.svg?branch=master)
+
 ### 5. Unit tests
 
 ### 6. Continuous Integration/Continuous Delivery
