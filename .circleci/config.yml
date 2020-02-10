@@ -50,10 +50,7 @@ jobs:
             . venv/bin/activate
             pipenv run python -m unittest test/test_sentiment.py
             pipenv run coverage report
-            pipenv run coverage html
 
-      - store_test_results:
-          path: ~/SWT-Sentiment_Analysis/htmlcov
       - store_artifacts:
-          path: ~/SWT-Sentiment_Analysis/htmlcov
-          destination: test-result
+          path: test-reports
+          destination: test-reports
