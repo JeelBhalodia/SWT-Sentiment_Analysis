@@ -48,7 +48,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python test/test_sentiment.py unittest
+            pipenv run python -m unittest test/test_sentiment.py
             pipenv run coverage report
 
       - store_artifacts:
