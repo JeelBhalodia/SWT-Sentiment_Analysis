@@ -32,17 +32,17 @@ Codacy Code quality badge
 
 I have maintained the PEP8 coding standards while developing my Project. Some of the examples are mentioned below:
 
-+ Naming conventions for the functions: lowercase with words separated by underscore to improve readability.
-+ Each imports are on the top of the file and clearly readable.
-+ Keeping the functions short and simple. No more than 3 arguments if possible.
-+ Using Exceptions instead of returning error codes.
-+ Tests should be fast and independent.
++ [Naming conventions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/screenshots/naming_conventions.PNG) for the functions: lowercase with words separated by underscore to improve readability.
++ Each [imports](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/screenshots/imports.PNG) are on the top of the file and clearly readable.
++ Keeping the functions short and simple. No more than [3 arguments](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/screenshots/less_no_of_arguments.PNG) if possible.
++ Using [exceptions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/screenshots/exception_handling.PNG) instead of returning error codes.
++ [Tests](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/screenshots/tests.PNG) should be fast and independent.
 
 However, these are just few examples to demonstrate. 
 
-One of the [cheatsheet](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)(more like a summary) which I found helpful.
++ One of the [cheatsheet](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)(more like a summary) which I found helpful.
 
-[Cheatsheet2](https://www.planetgeek.ch/wp-content/uploads/2011/02/Clean-Code-Cheat-Sheet-V1.3.pdf)
++ [Cheatsheet2](https://www.planetgeek.ch/wp-content/uploads/2011/02/Clean-Code-Cheat-Sheet-V1.3.pdf)
 
 ### 4. Build Management
 
