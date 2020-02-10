@@ -22,7 +22,6 @@ I have used lucidchart and GitUML (class diagram) for the this task.
 
 I have used both Sonarcube and Codacy for the task.
 
-
 Sonarcloud Code Qulity Badge
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=JeelBhalodia_SWT-Sentiment_Analysis2&metric=alert_status)](https://sonarcloud.io/dashboard?id=JeelBhalodia_SWT-Sentiment_Analysis2)
 
@@ -30,6 +29,21 @@ Codacy Code quality badge
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d028e61c35449acad16a139efa656a3)](https://www.codacy.com/manual/JeelBhalodia/SWT-Sentiment_Analysis?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JeelBhalodia/SWT-Sentiment_Analysis&amp;utm_campaign=Badge_Grade)
 
 ### 3. Clean Code Development
+
+I have maintained the PEP8 coding standards while developing my Project. Some of the examples are mentioned below:
+
++ Naming conventions for the functions: lowercase with words separated by underscore to improve readability.
+	def get_friend_list(self, num_friends):
+			friend_list = []
+			for friend in Cursor(self.twitter_client.friends, id=self.twitter_user).items(num_friends):
+				friend_list.append(friend)
+			return friend_list
+
+
+
+One of the [cheatsheets](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)(more like a summary) which I found helpful.
+
+[Cheatsheet2](https://www.planetgeek.ch/wp-content/uploads/2011/02/Clean-Code-Cheat-Sheet-V1.3.pdf)
 
 ### 4. Build Management
 
@@ -39,6 +53,8 @@ Here is the [build file](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/
 ![Python application](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/workflows/Python%20application/badge.svg?branch=master)
 
 ### 5. Unit tests
+
+I have created some [unit tests](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/test/test_sentiment.py) and integrated it in my project.
 
 ### 6. Continuous Delivery
 
