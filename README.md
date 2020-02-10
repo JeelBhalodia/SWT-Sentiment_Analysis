@@ -40,7 +40,14 @@ Here is the [build file](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/
 
 ### 5. Unit tests
 
-### 6. Continuous Integration/Continuous Delivery
+### 6. Continuous Delivery
+
+I have used CircleCI tool for the continuous delivery. [![CircleCI](https://circleci.com/gh/JeelBhalodia/SWT-Sentiment_Analysis.svg?style=svg)](https://circleci.com/gh/JeelBhalodia/SWT-Sentiment_Analysis)
+
+You can find the config.yml file [here](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/.circleci/config.yml).
+
+The pipelines can be found [here](https://app.circleci.com/github/JeelBhalodia/SWT-Sentiment_Analysis/pipelines).
+Here are all the [jobs](https://circleci.com/gh/JeelBhalodia).
 
 ### 7. IDE
 
