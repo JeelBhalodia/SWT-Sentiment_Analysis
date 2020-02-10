@@ -33,15 +33,14 @@ Codacy Code quality badge
 I have maintained the PEP8 coding standards while developing my Project. Some of the examples are mentioned below:
 
 + Naming conventions for the functions: lowercase with words separated by underscore to improve readability.
-	def get_friend_list(self, num_friends):
-			friend_list = []
-			for friend in Cursor(self.twitter_client.friends, id=self.twitter_user).items(num_friends):
-				friend_list.append(friend)
-			return friend_list
++ Each imports are on the top of the file and clearly readable.
++ Keeping the functions short and simple. No more than 3 arguments if possible.
++ Using Exceptions instead of returning error codes.
++ Tests should be fast and independent.
 
+However, these are just few examples to demonstrate. 
 
-
-One of the [cheatsheets](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)(more like a summary) which I found helpful.
+One of the [cheatsheet](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)(more like a summary) which I found helpful.
 
 [Cheatsheet2](https://www.planetgeek.ch/wp-content/uploads/2011/02/Clean-Code-Cheat-Sheet-V1.3.pdf)
 
