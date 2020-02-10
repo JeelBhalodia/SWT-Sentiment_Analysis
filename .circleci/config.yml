@@ -44,12 +44,6 @@ jobs:
       # other common Python testing frameworks include pytest and nose
       # https://pytest.org
       # https://nose.readthedocs.io
-      - run:
-          name: run tests
-          command: |
-            . venv/bin/activate
-            pipenv run python -m unittest test/test_sentiment.py
-            pipenv run coverage report
 
       - store_artifacts:
           path: test-reports
