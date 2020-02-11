@@ -96,8 +96,9 @@ Bit more general and flexible. Instead of hardcoding the arguments, users pass a
 
 ### 9. Functional Programming
 
-	Functional Programming is a programming paradigm with software primarily composed of functions processing data throughout its execution.
+		Functional Programming is a programming paradigm with software primarily composed of functions processing data throughout its execution.
 
+	Functional programming is a programming paradigm with software primarily composed of functions processing data throughout its execution.
 + [final data structures](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/data_structure.PNG)
 
 	A persistent data structure is one in which no operations result in permanent changes to the underlying structure. It's called “persistent” because as the structure goes through successive operations, all versions of the structure persist over time.
