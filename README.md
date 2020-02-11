@@ -96,22 +96,18 @@ Bit more general and flexible. Instead of hardcoding the arguments, users pass a
 
 ### 9. Functional Programming
 
-
-
-+ [final data structures](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/data_structure.PNG)
++ [Final data structures](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/data_structure.PNG)
 
 	A persistent data structure is one in which no operations result in permanent changes to the underlying structure. It's called “persistent” because as the structure goes through successive operations, all versions of the structure persist over time.
 
 	I have used dataframes here so that we can have a little flexibilty, unlike tuples but however the structure doesn't change.
-+ [side effect free functions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/pure_function.PNG)
++ [Side effect free functions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/pure_function.PNG)
 
 	Pure functions do not have side effects, that is, they do not change the state of the program. Given the same input, a pure function will always produce the same output. If we like functions to be pure, then we should not change the value of the input or any data that exists outside the function's scope.
 
-+ [higher order functions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/higher_order_function.PNG)
++ [Higher order functions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/higher_order_function.PNG)
 
 	Higher Order Functions either accept a function as an argument or return a function for further processing. Higher Order Functions give our code flexibility. By abstracting what functions are applied or returned, we gain more control of our program's behavior.
 ____________________
 
-	Functional Programming is a programming paradigm with software primarily composed of functions processing data throughout its execution.
-
-If you are thinking that the length of the code is a bit small and my grades might affect, please click [here](https://github.com/JeelBhalodia/SWT-1920).
+If the length of the code seems a bit small and my grades might affect, please click [here](https://github.com/JeelBhalodia/SWT-1920).
