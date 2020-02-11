@@ -16,6 +16,7 @@ import re
 
 # # # # TWITTER CLIENT # # # #
 class TwitterClient():
+    '''docstring'''
     def __init__(self, twitter_user=None):
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
         self.twitter_client = API(self.auth)
@@ -46,7 +47,7 @@ class TwitterClient():
 
 # # # # TWITTER AUTHENTICATER # # # #
 class TwitterAuthenticator():
-
+    '''docstring'''
     def authenticate_twitter_app(self):
         auth = OAuthHandler(twitter_credentials.CONSUMER_KEY, twitter_credentials.CONSUMER_SECRET)
         auth.set_access_token(twitter_credentials.ACCESS_TOKEN, twitter_credentials.ACCESS_TOKEN_SECRET)
@@ -139,3 +140,36 @@ if __name__ == '__main__':
     df['sentiment'] = np.array([tweet_analyzer.analyze_sentiment(tweet) for tweet in df['tweets']])
 
     print(df.head(10))
+'''
+    #visualization code
+    Get average length over all tweets:
+    print(np.mean(df['len']))
+
+    Get the number of likes for the most liked tweet:
+    print(np.max(df['likes']))
+
+    Get the number of retweets for the most retweeted tweet:
+    print(np.max(df['retweets']))
+    
+    print(df.head(10))
+
+    Time Series
+    time_likes = pd.Series(data=df['len'].values, index=df['date'])
+    time_likes.plot(figsize=(16, 4), color='r')
+    plt.show()
+    
+    time_favs = pd.Series(data=df['likes'].values, index=df['date'])
+    time_favs.plot(figsize=(16, 4), color='r')
+    plt.show()
+
+    time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
+    time_retweets.plot(figsize=(16, 4), color='r')
+    plt.show()
+
+    Layered Time Series:
+    time_likes = pd.Series(data=df['likes'].values, index=df['date'])
+    time_likes.plot(figsize=(16, 4), label="likes", legend=True)
+
+    time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
+    time_retweets.plot(figsize=(16, 4), label="retweets", legend=True)
+    plt.show()
