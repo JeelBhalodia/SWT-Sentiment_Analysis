@@ -112,4 +112,4 @@ Bit more general and flexible. Instead of hardcoding the arguments, users pass a
 	Higher Order Functions either accept a function as an argument or return a function for further processing. Higher Order Functions give our code flexibility. By abstracting what functions are applied or returned, we gain more control of our program's behavior.
 ____________________
 
-If you are thinking that the lenggth of the code is a bit small, please click [here]().
+If you are thinking that the length of the code is a bit small and my grades might affect, please click [here]().
