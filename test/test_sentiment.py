@@ -4,11 +4,6 @@ import pandas.core.base
 import pandas.core.frame
 import pandas.core.generic
 import re
-from textblob import TextBlob
-import textblob.blob
-from textblob.blob import BaseBlob
-import textblob.decorators
-from textblob.decorators import cached_property
 from tweepy import API
 from tweepy import Cursor
 from tweepy import OAuthHandler
