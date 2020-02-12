@@ -108,6 +108,12 @@ Bit more general and flexible. Instead of hardcoding the arguments, users pass a
 + [Higher order functions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/higher_order_function.PNG)
 
 	Higher Order Functions either accept a function as an argument or return a function for further processing. Higher Order Functions give our code flexibility. By abstracting what functions are applied or returned, we gain more control of our program's behavior.
+
++ [Functions as parameters and return values](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/func_programming/parameters.PNG)
+
+	Parameters to a function behave like regular bindings, but their initial values are given by the caller of the function, not the code in the function itself.
+
 ____________________
+
 
 If the length of the code seems a bit small and my grades might affect, please click [here](https://github.com/JeelBhalodia/SWT-1920).
