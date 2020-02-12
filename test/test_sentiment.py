@@ -6,9 +6,7 @@ import pandas.core.generic
 import re
 from tweepy import OAuthHandler
 import tweepy.api
-from tweepy.api import API
 import tweepy.auth
-from tweepy.auth import API
 import tweepy.binder
 import unittest
 

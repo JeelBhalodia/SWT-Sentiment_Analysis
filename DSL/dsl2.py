@@ -6,7 +6,7 @@ import sys
 import importlib
 
 def get_args(dsl_args):
-    """return args, kwargs"""
+    """Return args, kwargs"""
     args = []
     kwargs = {}
     for dsl_arg in dsl_args:

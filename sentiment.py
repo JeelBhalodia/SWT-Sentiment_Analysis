@@ -19,6 +19,9 @@ class TwitterClient():
     Twitter Client
     """
     def __init__(self, twitter_user=None):
+        """
+        Twitter Client
+        """
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
         self.twitter_client = API(self.auth)
 
@@ -97,13 +100,12 @@ class TwitterListener(StreamListener):
         except BaseException as e:
             print("Error on_data %s" % str(e))
         return True
-          
+
     def on_error(self, status):
         if status == 420:
             # Returning False on_data method in case rate limit occurs.
             return False
         print(status)
-
 
 class TweetAnalyzer():
     """
@@ -180,4 +182,3 @@ if __name__ == '__main__':
     time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
     time_retweets.plot(figsize=(16, 4), label="retweets", legend=True)
     plt.show()
-"""
