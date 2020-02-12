@@ -1,15 +1,9 @@
-import matplotlib.pyplot as plt
-from mock import patch, Mock
-import numpy as np
+from mock import patch
 import pandas as pd
 import pandas.core.base
-from pandas.core.base import IndexOpsMixin
 import pandas.core.frame
-from pandas.core.frame import BlockManager
 import pandas.core.generic
-from pandas.core.generic import BlockManager
 import re
-from re import Scanner
 from textblob import TextBlob
 import textblob.blob
 from textblob.blob import BaseBlob
