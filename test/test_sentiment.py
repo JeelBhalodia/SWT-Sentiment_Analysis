@@ -4,16 +4,12 @@ import pandas.core.base
 import pandas.core.frame
 import pandas.core.generic
 import re
-from tweepy import API
-from tweepy import Cursor
 from tweepy import OAuthHandler
-from tweepy import Stream
 import tweepy.api
 from tweepy.api import API
 import tweepy.auth
 from tweepy.auth import API
 import tweepy.binder
-from tweepy.streaming import StreamListener
 import unittest
 
 from sentiment import TweetAnalyzer
