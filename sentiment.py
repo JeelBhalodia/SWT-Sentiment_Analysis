@@ -1,4 +1,4 @@
-from tweepy import API 
+from tweepy import API
 from tweepy import Cursor
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -59,15 +59,15 @@ class TwitterStreamer():
     Class for streaming and processing live tweets.
     """
     def __init__(self):
-        self.twitter_autenticator = TwitterAuthenticator()    
+        self.twitter_autenticator = TwitterAuthenticator()
 
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
         # This handles Twitter authetification and the connection to Twitter Streaming API
         listener = TwitterListener(fetched_tweets_filename)
-        auth = self.twitter_autenticator.authenticate_twitter_app() 
+        auth = self.twitter_autenticator.authenticate_twitter_app()
         stream = Stream(auth, listener)
 
-        # This line filter Twitter Streams to capture data by the keywords: 
+        # This line filter Twitter Streams to capture data by the keywords:
         stream.filter(track=hash_tag_list)
 
 
@@ -126,7 +126,6 @@ class TweetAnalyzer():
 
         return df
 
- 
 if __name__ == '__main__':
 
     twitter_client = TwitterClient()

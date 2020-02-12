@@ -46,7 +46,7 @@ However, these are just few examples to demonstrate.
 
 ### 4. Build Management
 
-I have used Github Actions for the Build Management.
+I have used [Github Actions](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/actions) for the Build Management.
 Here is the [build file](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/blob/master/.github/workflows/pythonapp.yml).
 
 ![Python application](https://github.com/JeelBhalodia/SWT-Sentiment_Analysis/workflows/Python%20application/badge.svg?branch=master)
